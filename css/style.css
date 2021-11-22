@@ -37,6 +37,38 @@
     .main .footer__redes {
       display: flex; } }
 
+@media screen and (max-width: 780px) {
+  .logoPrincipal {
+    width: 80%; }
+  .menuPrincipal {
+    display: flex;
+    flex-direction: row; }
+  .banner {
+    width: 100%; }
+  .main__gridContainer {
+    display: flex;
+    flex-direction: column; }
+  .main .footer {
+    width: 100%; }
+    .main .footer__redes {
+      display: flex; } }
+
+@media screen and (max-width: 1024px) {
+  .logoPrincipal {
+    width: 80%; }
+  .menuPrincipal {
+    display: flex;
+    flex-direction: row; }
+  .banner {
+    width: 100%; }
+  .main__gridContainer {
+    display: flex;
+    flex-direction: column; }
+  .main .footer {
+    width: 100%; }
+    .main .footer__redes {
+      display: flex; } }
+
 body {
   padding: 0px;
   margin: 0px; }
