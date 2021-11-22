@@ -1,0 +1,28 @@
+%gridcontainer1{
+    display: grid;
+    grid-template-columns: 310px  310px 310px;
+    grid-template-rows: 310px 310px 310px;
+    justify-content: space-evenly;
+    padding: 4%;
+    grid-row-gap: 30px;
+}
+
+%gridcontainer2{
+    display: grid;
+    grid-template-columns: 650px 500px; 
+    justify-content: space-evenly;
+    padding: 2%;
+    line-height: 23px;
+}
+
+%basefooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4% ;
+    background-color: #0d505a;
+}
+
+
+

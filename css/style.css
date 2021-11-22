@@ -1,0 +1,391 @@
+.main__gridContainer {
+  display: grid;
+  grid-template-columns: 310px  310px 310px;
+  grid-template-rows: 310px 310px 310px;
+  justify-content: space-evenly;
+  padding: 4%;
+  grid-row-gap: 30px; }
+
+.main__gridContainer1 {
+  display: grid;
+  grid-template-columns: 650px 500px;
+  justify-content: space-evenly;
+  padding: 2%;
+  line-height: 23px; }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4%;
+  background-color: #0d505a; }
+
+body {
+  padding: 0px;
+  margin: 0px; }
+
+header {
+  background-image: url(../img/portadaTop.png);
+  background-size: cover;
+  background-position: 1%; }
+  header .logoPrincipal {
+    width: 40%;
+    margin: 4%; }
+
+.nav1__menuPrincipal ul {
+  background-color: #1B97A6;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  margin: auto;
+  font-family: "Shadows Into Light Two", cursive;
+  font-size: 140%;
+  padding: 15px; }
+
+.nav1__menuPrincipal a {
+  color: white;
+  text-decoration: none;
+  padding: 15px; }
+
+.Banner img {
+  width: 100%;
+  box-shadow: 0px 40px 140px #999; }
+
+.main__gridContainer div {
+  text-align: center;
+  color: black;
+  padding: 15%;
+  font-family: "Shadows Into Light Two", cursive;
+  font-size: 100%;
+  background-color: #2ccadb94;
+  box-shadow: 18px 18px 18px #999;
+  font-size: 100%; }
+  .main__gridContainer div h4 {
+    color: black; }
+
+.main__gridContainer img {
+  width: 35%;
+  padding: 1%; }
+
+.footer p {
+  color: white;
+  line-height: 7px; }
+
+.footer__redes {
+  display: flex; }
+  .footer__redes img {
+    width: 32px;
+    margin: 0 5px; }
+
+.presentacion {
+  background-image: url(../img/fondo13.jpg);
+  background-size: cover;
+  background-position: 40%;
+  margin-left: auto;
+  margin-right: auto; }
+  .presentacion h3 {
+    font-family: "Shadows Into Light Two", cursive;
+    text-align: center;
+    font-size: 200%;
+    color: #fff;
+    padding: 4%;
+    padding-right: 60%; }
+  .presentacion p {
+    font-family: "Shadows Into Light Two", cursive;
+    font-size: 120%;
+    text-align: center;
+    color: #fff;
+    padding-left: 3%;
+    padding-right: 60%; }
+
+.main__gridContainer1 div {
+  text-align: left;
+  color: black;
+  padding: 2%;
+  font-family: 'Arimo', sans-serif;
+  font-size: 98%;
+  background-color: rgba(50, 54, 54, 0.267);
+  box-shadow: 15px 15px 15px #777474;
+  border-radius: 12px; }
+
+.gridNosotros1 {
+  display: grid;
+  grid-template-columns: 50% auto; }
+  .gridNosotros1 div h2 {
+    padding: 5%;
+    text-align: center;
+    font-family: "Shadows Into Light Two", cursive;
+    font-size: 240%;
+    padding-top: 45%; }
+  .gridNosotros1 div p {
+    padding-left: 15%;
+    padding-right: 15%;
+    font-family: "Shadows Into Light Two", cursive;
+    font-size: 115%; }
+  .gridNosotros1 div img {
+    width: 80%; }
+
+.gridNosotros2 {
+  display: grid;
+  grid-template-columns: 50% auto; }
+  .gridNosotros2 div h2 {
+    text-align: center;
+    padding: 5%;
+    font-family: "Shadows Into Light Two", cursive;
+    padding-top: 30%; }
+  .gridNosotros2 div p {
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: "Shadows Into Light Two", cursive;
+    font-size: 115%; }
+  .gridNosotros2 div img {
+    width: 80%; }
+
+.staff {
+  box-sizing: border-box;
+  padding: 25%;
+  background: linear-gradient(rgba(14, 12, 12, 0.35), rgba(10, 1, 1, 0.651)), url(../img/nosotros.jpg) no-repeat center/cover;
+  background-attachment: fixed; }
+  .staff .titulo {
+    color: white;
+    text-align: center;
+    font-size: 180%;
+    font-family: "Shadows Into Light Two", cursive; }
+
+.staff {
+  box-sizing: border-box;
+  padding: 25%;
+  background: linear-gradient(rgba(14, 12, 12, 0.35), rgba(10, 1, 1, 0.651)), url(../img/nosotros.jpg) no-repeat center/cover;
+  background-attachment: fixed; }
+  .staff .titulo {
+    color: white;
+    text-align: center;
+    font-size: 180%;
+    font-family: "Shadows Into Light Two", cursive; }
+
+.grupo1 {
+  padding-top: 3%;
+  color: #282b31;
+  font-family: "Shadows Into Light Two", cursive;
+  text-align: center; }
+  .grupo1 h4 {
+    font-size: 200%; }
+  .grupo1 hr {
+    width: 50%;
+    margin: auto; }
+  .grupo1 .gridGrupo1 {
+    display: flex;
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 15%; }
+    .grupo1 .gridGrupo1 p {
+      padding: 1%; }
+    .grupo1 .gridGrupo1 a {
+      position: absolute;
+      right: 25%;
+      left: 25%;
+      bottom: 2%; }
+
+.grupo2 {
+  padding-top: 3%;
+  font-family: "Shadows Into Light Two", cursive;
+  text-align: center; }
+  .grupo2 h4 {
+    font-size: 200%; }
+  .grupo2 hr {
+    width: 50%;
+    margin: auto; }
+  .grupo2 .gridGrupo2 {
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%; }
+    .grupo2 .gridGrupo2 h5 {
+      font-size: 130%; }
+    .grupo2 .gridGrupo2 p {
+      padding: 1%; }
+    .grupo2 .gridGrupo2 a {
+      position: absolute;
+      right: 25%;
+      left: 25%;
+      bottom: 2%; }
+  .grupo2 .flexGrupo2 {
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%; }
+    .grupo2 .flexGrupo2 h5 {
+      font-size: 130%; }
+    .grupo2 .flexGrupo2 p {
+      padding: 1%; }
+    .grupo2 .flexGrupo2 a {
+      position: absolute;
+      right: 25%;
+      left: 25%;
+      bottom: 2%; }
+
+.grupo3 {
+  padding-top: 3%;
+  font-family: "Shadows Into Light Two", cursive;
+  text-align: center; }
+  .grupo3 h4 {
+    font-size: 200%; }
+  .grupo3 hr {
+    width: 50%;
+    margin: auto; }
+  .grupo3 .gridGrupo3 {
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%; }
+    .grupo3 .gridGrupo3 h5 {
+      font-size: 130%; }
+    .grupo3 .gridGrupo3 p {
+      padding: 1%; }
+    .grupo3 .gridGrupo3 a {
+      position: absolute;
+      right: 25%;
+      left: 25%;
+      bottom: 2%; }
+  .grupo3 .flexGrupo3 {
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%; }
+    .grupo3 .flexGrupo3 h5 {
+      font-size: 130%; }
+    .grupo3 .flexGrupo3 p {
+      padding: 1%; }
+    .grupo3 .flexGrupo3 a {
+      position: absolute;
+      right: 25%;
+      left: 25%;
+      bottom: 2%; }
+
+.bannerRoom {
+  display: flex;
+  justify-content: center; }
+  .bannerRoom img {
+    box-shadow: 15px 15px 15px #777474; }
+
+.gridProductos {
+  display: grid;
+  grid-template-columns: 30% auto;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 1%; }
+  .gridProductos div h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    padding-top: 8%;
+    padding-left: 4%; }
+  .gridProductos div p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    padding-left: 4%; }
+  .gridProductos div img {
+    width: 100%; }
+  .gridProductos button {
+    background-color: red;
+    color: white;
+    margin-left: 4%;
+    border: none;
+    font-size: 100%; }
+
+.line {
+  width: 60%;
+  margin: auto;
+  padding-top: 1%; }
+  .line h2 {
+    padding-top: 1%;
+    padding: 2%;
+    font-family: "Shadows Into Light Two", cursive;
+    text-align: center;
+    font-size: 240%; }
+  .line h3 {
+    font-family: "Shadows Into Light Two", cursive;
+    text-align: center;
+    font-size: 200%;
+    padding-top: 1%; }
+
+.contact_form {
+  width: 460px;
+  height: auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #fbfbfb;
+  padding-left: 30px;
+  font-family: Arial, Helvetica, sans-serif; }
+  .contact_form h1 {
+    font-size: 39px;
+    text-align: letf;
+    padding-bottom: 20px;
+    color: #1ba2c4; }
+  .contact_form h3 {
+    font-size: 16px;
+    padding-bottom: 30px;
+    color: #290a71; }
+  .contact_form ::-webkit-input-placeholder {
+    color: #a8a8a8; }
+  .contact_form ::-webkit-textarea-placeholder {
+    color: #a8a8a8; }
+  .contact_form input {
+    background-color: #fbfbfb;
+    width: 408px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #27b0c2;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px; }
+  .contact_form textarea {
+    background-color: #fbfbfb;
+    width: 405px;
+    height: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #27b0c2;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px; }
+  .contact_form label {
+    display: block;
+    float: center; }
+    .contact_form label span {
+      color: #27b0c2; }
+  .contact_form button {
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: #27b0c2;
+    border-color: #27b0c2;
+    border-style: solid;
+    border-radius: 10px;
+    width: 410px;
+    cursor: pointer; }
+    .contact_form button p {
+      margin-top: 2%; }
+  .contact_form .aviso {
+    font-size: 15px;
+    color: #0e0e0e; }
+    .contact_form .aviso p {
+      color: #fff; }
+  .contact_form p {
+    font-size: 14px;
+    color: #0e0e0e; }
+  .contact_form .formulario input:focus {
+    outline: 0;
+    border: 1px solid #97d848; }
+  .contact_form .formulario textarea:focus {
+    outline: 0;
+    border: 1px solid #97d848; }

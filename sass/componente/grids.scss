@@ -1,0 +1,91 @@
+.presentacion{
+    h3{
+        font-family: $textoIndex;
+        text-align: center;
+        font-size: 200%;
+        color: #fff;
+        padding: 4%;
+        padding-right: 60%;
+    }
+    p{
+        font-family: $textoIndex;
+        font-size: 120%;
+        text-align: center;
+        color: #fff;
+        padding-left: 3%;
+        padding-right: 60%;
+    }
+    background-image: url(../img/fondo13.jpg);
+    background-size: cover;
+    background-position: 40%;
+
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.main{
+    &__gridContainer1{
+        @extend %gridcontainer2;
+
+        div{
+        text-align: left;
+        color: black;
+        padding: 2%; 
+        font-family: 'Arimo', sans-serif;
+        font-size: 98%;
+        background-color: rgba(50, 54, 54, 0.267);
+        box-shadow: 15px 15px 15px rgb(119, 116, 116);    
+        border-radius: 12px;
+        }
+    } 
+}
+
+.gridNosotros1{
+    display: grid;
+    grid-template-columns: 50% auto;
+
+    div{
+
+        h2{
+            padding: 5%;
+            text-align: center;
+            font-family: $textoIndex;
+            font-size: 240%;
+            padding-top: 45%;
+        }
+
+        p{
+            padding-left: 15%;
+            padding-right: 15%;
+            font-family: $textoIndex;
+            font-size: 115%;
+        } 
+        
+        img{
+            width: 80%;
+        }
+    }
+}
+
+.gridNosotros2{
+    display: grid;
+    grid-template-columns: 50% auto;
+
+    div{
+        h2{
+            text-align: center;
+            padding: 5%;
+            font-family: $textoIndex;
+            padding-top: 30%;
+        }
+        p{
+            padding-left: 20%;
+            padding-right: 20%;
+            font-family: $textoIndex;
+            font-size: 115%;
+        } 
+        img{
+            width: 80%;
+        }
+    }
+}

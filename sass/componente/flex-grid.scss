@@ -1,0 +1,42 @@
+.bannerRoom{
+    display: flex;
+    justify-content: center;
+    img{
+        box-shadow: 15px 15px 15px rgb(119, 116, 116);    
+    }
+    
+}
+
+.gridProductos{
+    display: grid;
+    grid-template-columns: 30% auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 1%;
+
+    div{
+        h2{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 120%;
+            padding-top: 8%;
+            padding-left: 4%;
+        }
+
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 90%;
+            padding-left: 4%;
+        } 
+        
+        img{
+            width: 100%;
+        }
+    }
+    button{
+        background-color: red;
+        color: white;
+        margin-left: 4%;
+        border: none;
+        font-size: 100%; 
+    }
+}

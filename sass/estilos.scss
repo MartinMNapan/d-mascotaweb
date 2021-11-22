@@ -1,0 +1,30 @@
+
+//Base
+@import 'base/variables.scss';
+@import 'base/extend.scss';
+
+//Page Index.html
+@import 'componente/header';
+@import 'componente/navbar';
+@import 'componente/body';
+
+//Component all footer
+@import 'componente/footer';
+
+//Page nosotros.html
+@import 'componente/grids';
+@import 'componente/fixed';
+
+//Page servicios.html
+@import 'componente/cards';
+
+//Page productos.html
+@import 'componente/flex-grid';
+
+//Page all line
+@import 'componente/line';
+
+//Page Contactos.html
+@import 'componente/forms';
+
+

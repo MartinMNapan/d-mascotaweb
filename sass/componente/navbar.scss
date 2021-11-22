@@ -1,0 +1,22 @@
+.nav1{
+    &__menuPrincipal{
+        ul{
+            background-color: #1B97A6; 
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            list-style: none;
+            margin: auto;
+            font-family: $textoIndex;
+            font-size: 140%;
+            padding: 15px;
+        }
+
+        a{
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+        }
+        
+    }
+}
