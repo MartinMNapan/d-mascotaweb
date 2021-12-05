@@ -358,82 +358,58 @@ header {
     font-size: 200%;
     padding-top: 1%; }
 
-.contact_form {
-  width: 460px;
-  height: auto;
-  border-radius: 10px;
-  padding-top: 30px;
-  padding-bottom: 20px;
-  background-color: #fbfbfb;
-  padding-left: 30px;
-  font-family: Arial, Helvetica, sans-serif; }
-  .contact_form h1 {
-    font-size: 39px;
-    text-align: letf;
-    padding-bottom: 20px;
-    color: #1ba2c4; }
-  .contact_form h3 {
-    font-size: 16px;
-    padding-bottom: 30px;
-    color: #290a71; }
-  .contact_form ::-webkit-input-placeholder {
-    color: #a8a8a8; }
-  .contact_form ::-webkit-textarea-placeholder {
-    color: #a8a8a8; }
-  .contact_form input {
-    background-color: #fbfbfb;
-    width: 408px;
-    height: 40px;
-    border-radius: 5px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #27b0c2;
-    margin-top: 10px;
-    padding-left: 10px;
-    margin-bottom: 20px; }
-  .contact_form textarea {
-    background-color: #fbfbfb;
-    width: 405px;
-    height: 150px;
-    border-radius: 5px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #27b0c2;
-    margin-top: 10px;
-    padding-left: 10px;
-    margin-bottom: 20px;
-    padding-top: 15px; }
-  .contact_form label {
-    display: block;
-    float: center; }
-    .contact_form label span {
-      color: #27b0c2; }
-  .contact_form button {
-    height: 45px;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    text-transform: uppercase;
-    background-color: #27b0c2;
-    border-color: #27b0c2;
-    border-style: solid;
-    border-radius: 10px;
-    width: 410px;
-    cursor: pointer; }
-    .contact_form button p {
-      margin-top: 2%; }
-  .contact_form .aviso {
-    font-size: 15px;
-    color: #0e0e0e; }
-    .contact_form .aviso p {
-      color: #fff; }
-  .contact_form p {
-    font-size: 14px;
-    color: #0e0e0e; }
-  .contact_form .formulario input:focus {
-    outline: 0;
-    border: 1px solid #97d848; }
-  .contact_form .formulario textarea:focus {
-    outline: 0;
-    border: 1px solid #97d848; }
+.body {
+  width: 400px;
+  padding: 3%; }
+  .body .contacto {
+    border: 1px solid #0986a8;
+    border-radius: 6px;
+    padding: 45px 45px 20px;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 0px 5px 10px #0c9dce, 0 0 0 10px #2e9bb9 inset;
+    font-family: "Shadows Into Light Two", cursive;
+    font-size: 110%; }
+    .body .contacto div {
+      margin-bottom: 15px; }
+      .body .contacto div label {
+        display: block;
+        font-weight: bold; }
+        .body .contacto div label input[type='text'] {
+          padding: 7px 6px;
+          width: 294px;
+          border: 1px solid #CED5D7;
+          resize: none;
+          box-shadow: 0 0 0 3px #EEF5F7;
+          margin: 5px 0; }
+          .body .contacto div label input[type='text'] :focus {
+            outline: none;
+            box-shadow: 0 0 0 3px #dde9ec; }
+        .body .contacto div label input[type='submit'] {
+          border: 1px solid #CED5D7;
+          box-shadow: 0 0 0 3px #EEF5F7;
+          padding: 8px 16px;
+          border-radius: 20px;
+          font-weight: bold;
+          text-shadow: 1px 1px 0px white;
+          background: #e4f1f6;
+          background: -moz-linear-gradient(top, #e4f1f6 0%, #cfe6ef 100%);
+          background: -webkit-linear-gradient(top, #e4f1f6 0%, #cfe6ef 100%); }
+          .body .contacto div label input[type='submit'] :hover {
+            background: #edfcff;
+            background: -moz-linear-gradient(top, #edfcff 0%, #cfe6ef 100%);
+            background: -webkit-linear-gradient(top, #edfcff 0%, #cfe6ef 100%); }
+          .body .contacto div label input[type='submit'] :active {
+            background: #cfe6ef;
+            background: -moz-linear-gradient(top, #cfe6ef 0%, #edfcff 100%);
+            background: -webkit-linear-gradient(top, #cfe6ef 0%, #edfcff 100%); }
+        .body .contacto div label textarea {
+          padding: 7px 6px;
+          width: 294px;
+          border: 1px solid #CED5D7;
+          resize: none;
+          box-shadow: 0 0 0 3px #EEF5F7;
+          margin: 5px 0; }
+          .body .contacto div label textarea :focus {
+            outline: none;
+            box-shadow: 0 0 0 3px #dde9ec; }
