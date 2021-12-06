@@ -7,66 +7,58 @@
         border-radius: 6px;
         padding: 45px 45px 20px;
         margin-top: 20px;
-        background-color: white;
-        box-shadow: 0px 5px 10px #0c9dce, 0 0 0 10px #2e9bb9 inset;
+        background-color: rgb(216, 171, 119);
+        box-shadow: 0px 5px 10px #0c9dce, 0 0 0 5px #09b4a6 inset;
         font-family: $textoIndex;
         font-size: 110%;
 
         div{
             margin-bottom: 15px;
+
             label{
                 display: block;
                 font-weight: bold;
-                input[type='text']{
-                    padding: 7px 6px;
-                    width: 294px;
-                    border: 1px solid #CED5D7;
-                    resize: none; 
-                    box-shadow:0 0 0 3px #EEF5F7;
-                    margin: 5px 0;
+            
+                }
+            input[type='text'], textarea{
+                padding: 7px 6px;
+                width: 294px;
+                border: 1px solid #CED5D7;
+                resize: none; 
+                box-shadow:0 0 0 3px #EEF5F7;
+                margin: 5px 0;
 
-                    :focus{
-                        outline: none;
-                        box-shadow:0 0 0 3px #dde9ec;
-                    }
-                }
-                input[type='submit']{
-                    border: 1px solid #CED5D7;
-                    box-shadow:0 0 0 3px #EEF5F7;
-                    padding: 8px 16px;
-                    border-radius: 20px;
-                    font-weight: bold;
-                    text-shadow: 1px 1px 0px white;
-                 
-                    background: #e4f1f6;
-                    background: -moz-linear-gradient(top, #e4f1f6 0%, #cfe6ef 100%);
-                    background: -webkit-linear-gradient(top, #e4f1f6 0%,#cfe6ef 100%);
-                    :hover{
-                        background: #edfcff;
-                        background: -moz-linear-gradient(top, #edfcff 0%, #cfe6ef 100%);
-                        background: -webkit-linear-gradient(top, #edfcff 0%,#cfe6ef 100%);
-                    }
-                    :active{
-                        background: #cfe6ef;
-                        background: -moz-linear-gradient(top, #cfe6ef 0%, #edfcff 100%);
-                        background: -webkit-linear-gradient(top, #cfe6ef 0%,#edfcff 100%);
-                    }
-                }
-                textarea{
-                    padding: 7px 6px;
-                    width: 294px;
-                    border: 1px solid #CED5D7;
-                    resize: none;
-                    box-shadow:0 0 0 3px #EEF5F7;
-                    margin: 5px 0;
-                    :focus{
-                        outline: none;
-                        box-shadow:0 0 0 3px #dde9ec;
-                    }
-                }
-            }    
+            }
+            input[type='text']:focus, textarea:focus{
+                outline: none; /* reset especifico para Chrome/Safari */
+                box-shadow:0 0 0 3px #dde9ec;
+            }
+            input[type='submit']{
+                border: 1px solid #CED5D7;
+                box-shadow:0 0 0 3px #EEF5F7;
+                padding: 8px 16px;
+                border-radius: 20px;
+                font-weight: bold;
+                text-shadow: 1px 1px 0px white;
+             
+                background: #e4f1f6; /* fallback para navegadores que no soporten degradados */
+                background: -moz-linear-gradient(top, #e4f1f6 0%, #cfe6ef 100%);
+                background: -webkit-linear-gradient(top, #e4f1f6 0%,#cfe6ef 100%);
+            }
+            input[type='submit']:hover{
+                background: #edfcff;
+                background: -moz-linear-gradient(top, #edfcff 0%, #cfe6ef 100%);
+                background: -webkit-linear-gradient(top, #edfcff 0%,#cfe6ef 100%);
+            }
+            input[type='submit']:active{
+                background: #cfe6ef;
+                background: -moz-linear-gradient(top, #cfe6ef 0%, #edfcff 100%);
+                background: -webkit-linear-gradient(top, #cfe6ef 0%,#edfcff 100%);
+            }
+             
+              
         }
       
     }
 
-}
+}   
